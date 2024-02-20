@@ -19,7 +19,7 @@ export const parseMessageBuilder = (label) =>
         let color = rgbaColors.aqua;
 
         if (from === "Gods") {
-          color = colors.magenta;
+          color = rgbaColors.magenta;
           from = "A voice out of the void";
         }
         if (from === "Help") color = rgbaColors.white;
